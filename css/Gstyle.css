@@ -1,0 +1,18 @@
+.carousel img {
+	border-radius: 50%;
+}
+.carousel {
+	display: inline-block;
+	position: fixed;
+	top: 25%;
+}
+.nav {
+	 background-image: url("../img/nasa1.jpg");
+	 height: 100vh;
+}
+#logo {
+	text-align: left;
+	position: relative;
+	transform: translateX(50%);
+
+}
