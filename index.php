@@ -11,7 +11,7 @@
 
 </head>
 <body>
-
+<!-- <?php include('db.php'); ?> -->
 <section class="nav">
    <nav>
     <div class="nav-wrapper">
@@ -26,8 +26,8 @@
         
  <div class="carousel">
     <a class="carousel-item" href="http://materializecss.com/carousel.html"><img src="http://lorempixel.com/250/250/nature/1"></a>
-    <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a>
-    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/3"></a>
+    <a class="carousel-item" href="planet1.php?ID=1"><img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg"></a>
+    <a class="carousel-item" href="planet1.php?ID=2"><img src="http://lorempixel.com/250/250/nature/3"></a>
     <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a>
     <a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a>
   </div>
