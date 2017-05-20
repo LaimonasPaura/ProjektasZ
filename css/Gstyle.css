@@ -1,3 +1,27 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }   
+
+.dark-blue{
+
+	background-color: #0c1a2f;
+}
+.nav-wrapper img {
+
+	height: 60px;
+	padding-right: 15px;
+}
+
+.transparency{
+
+	opacity: 0.8;
+}
 .carousel img {
 	border-radius: 50%;
 }
@@ -16,15 +40,10 @@
     padding-right: 0;
 
 }
-.nav {
-	 background-image: url("../img/nasa1.jpg");
+.main-content {
+	 background-image: url("../img/bg.jpg");
 	 height: 100vh;
-}
-#logo {
-	text-align: left;
-	position: relative;
-	transform: translateX(50%);
-
+	 background-size: cover;
 }
 
 .plmain h1 {
@@ -57,5 +76,56 @@ padding: 10px;
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg);
 	background-size: cover;
 }
+
+.team-block h2{
+
+text-align: center;
+color: #666;
+font-weight: normal;
+}
+
+.line {
+
+	width: 55px;
+	height: 1px;
+	background-color: #666;
+	margin: 0 auto;
+}
+
+
+
+.team-block ul {
+
+	margin: 20px auto;
+    text-align: center;
+    padding: 0;
+}
+
+.team-block li {
+   list-style-type: none;
+   display: inline-block; 
+   margin: 0 15px;
+   width: 200px;    
+}
+
+.team-block img {
+
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+.team-name {
+
+	color: #fff;
+	font-weight: bold;
+}
+
+.team-info {
+
+	color: #fff;
+	font-style: italic;
+}
+
 
 

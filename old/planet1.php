@@ -9,17 +9,22 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body class="plbody">
- <?php include('db2.php'); ?> 
+<?php /*include('db2.php');*/ ?>
 <div class="plmost">
 
 
 		<?php
 
-		$id = $_GET['ID'];
-		$sql = "SELECT  name, about, image FROM planet where ID = '" . $id . "' limit 1";
+		// $id = $_GET['ID'];
+		// $sql = "SELECT  name, about, image FROM planet where ID = '" . $id . "' limit 1";
 
-		$result = mysqli_query($conn, $sql);
-		$value = mysqli_fetch_assoc($result);
+		// $result = mysqli_query($conn, $sql);
+		// $value = mysqli_fetch_assoc($result);
+		$value = array(
+			'name' => 'Marxs',
+			'image' => 'img/mars.jpg',
+			'about' => 'Marxs is a totally boring planet where nothing grows and is red. Also, there are only robots there'
+		);
 		$_SESSION['myid'] = $value;
 		// print_r($value) ;
 
