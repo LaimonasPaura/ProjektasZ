@@ -14,31 +14,37 @@
 <?php /*include('db.php');*/ ?>
 <section class="main-content">
 <?php include('navBar.php');?>
-<div class="team-block">
-			<h2>Meet Our Team</h2>
-			<div class="line"></div>
+<div class="team-block">			
+		<div class="blankspace"></div>
 			<ul>
 				<li>
-					<img src="img/planetLogo.png">
-					<p class="team-name">Dennis Kim</p>
+					<img src="img/kaz.jpg">
+					<p class="team-name">Kazimiras</p>
 					<p class="team-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco.</p>
 				</li>
 				<li>
-					<img src="img/planetLogo.png">
-					<p class="team-name">Sara McCoy</p>
+					<img src="img/coding.png">
+					<p class="team-name">Vilnius Coding School</p>
 					<p class="team-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco.</p>
 				</li>
 				<li>
-					<img src="img/planetLogo.png">
-					<p class="team-name">Emily Porter</p>
+					<img src="img/travel.jpg">
+					<p class="team-name">Orbit Travel</p>
 					<p class="team-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco.</p>
 				</li>
+				<li>
+					<img src="img/space.png">
+					<p class="team-name">SpaceX</p>
+					<p class="team-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco.</p>
+				</li>								
 			</ul>
 		</div>	
 </section>
