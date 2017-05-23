@@ -58,3 +58,17 @@
 		// }
 
 	?>
+
+
+	<!-- <!-- style="background: url('<?php echo $value["image"]; ?>');" --> -->
+
+	<div class="carousel">
+    <a class="modal-trigger carousel-item" href="#planet1"><img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg"></a>
+    <a class="modal-trigger carousel-item" href="#planet2"><img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg"></a>
+    <a class="modal-trigger carousel-item" href="#planet3"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg"></a>
+    <a class="modal-trigger carousel-item" href="#planet4"><img src="http://www.8planets.co.uk/wp-content/themes/8planets/images/saturn_1_lg.jpg"></a>
+    <a class="modal-trigger carousel-item" href="#planet5"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg"></a>
+    <a class="modal-trigger carousel-item" href="#planet6"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg"></a>
+    <a class="modal-trigger carousel-item" href="#planet7"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg"></a>
+    <a class="modal-trigger carousel-item" href="#planet8"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg"></a>
+  </div>

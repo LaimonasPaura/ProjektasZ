@@ -1,0 +1,133 @@
+/*body{
+  background:url(http://artem.anmedio.ru/dev/planet/space.jpg) repeat;
+}*/
+.planet_mars{
+  width:300px;
+  height:300px;
+  position:absolute;
+  border-radius:50%;
+  overflow:hidden;
+  box-shadow: 0 0 60px -20px rgba(255, 189, 3, 0.72), -14px -15px 40px -10px rgba(255, 238, 191, 0.23);
+  left:50%;
+  top:50%;
+  margin:-150px;
+}
+.planet_mars .mask_mars{
+  width:100%;
+  height:100%;
+  position: absolute;
+  box-shadow:inset -10px -10px 40px #251303, inset 10px 10px 30px -10px rgba(255, 204, 159, 0.6);
+  border-radius:50%;
+}
+.planet_mars .background_mars{
+  animation: translateBackground 15s infinite linear;  
+  background:url(../img/mars4.jpg) repeat-x;
+  width:300px;
+  height:300px;
+  position:absolute;
+  border-radius:50%;
+  background-size: auto 100%;
+
+}
+.planet_mars .background_earth{
+  animation: translateBackground 20s infinite linear;  
+  background:url(../img/earth.jpg) repeat-x;
+  width:300px;
+  height:300px;
+  position:absolute;
+  border-radius:50%;
+  background-size: auto 100%;
+
+}
+.planet_mars .background_jupiter{
+  animation: translateBackground 70s infinite linear;  
+  background:url(../img/jupiter.jpg) repeat-x;
+  width:300px;
+  height:300px;
+  position:absolute;
+  border-radius:50%;
+  background-size: auto 100%;
+
+}
+.planet_mars .background_saturn{
+  animation: translateBackground 60s infinite linear;  
+  background:url(../img/saturn.jpg) repeat-x;
+  width:300px;
+  height:300px;
+  position:absolute;
+  border-radius:50%;
+  background-size: auto 100%;
+
+}
+.planet_mars .background_venus{
+  animation: translateBackground 15s infinite linear;  
+  background:url(../img/venus.jpg) repeat-x;
+  width:300px;
+  height:300px;
+  position:absolute;
+  border-radius:50%;
+  background-size: auto 100%;
+
+}
+.planet_mars .background_mercury{
+  animation: translateBackground 15s infinite linear;  
+  background:url(../img/mercury.jpg) repeat-x;
+  width:300px;
+  height:300px;
+  position:absolute;
+  border-radius:50%;
+  background-size: auto 100%;
+
+}
+.planet_mars .background_uranus{
+  animation: translateBackground 30s infinite linear;  
+  background:url(../img/uranus.jpg) repeat-x;
+  width:300px;
+  height:300px;
+  position:absolute;
+  border-radius:50%;
+  background-size: auto 100%;
+
+}
+.planet_mars .background_neptune{
+  animation: translateBackground 30s infinite linear;  
+  background:url(../img/neptune.jpg) repeat-x;
+  width:300px;
+  height:300px;
+  position:absolute;
+  border-radius:50%;
+  background-size: auto 100%;
+
+}
+.planet_mars .clouds{
+  background:url(../img/earth_clouds.jpg) repeat-x;
+  width:300px;
+  height:300px;
+  position:absolute;
+  border-radius:50%;
+  animation: translateBackground 20s infinite linear;
+  opacity: 0.4;
+}
+.planet_mars .wrap_mars{
+  width:300px;
+  height:300px;
+  position:absolute;
+  border-radius:50%;
+  animation: rotatePlanet 150s infinite linear;  
+}
+@keyframes translateBackground{
+  0%{
+    background-position-x:0;
+  }
+  100%{
+    background-position-x:-600px;
+  }
+}
+@keyframes rotatePlanet{
+  0%{
+    transform:rotateZ(0);
+  }
+/*   100%{
+    transform:rotateZ(-360deg);
+  } */
+}

@@ -27,7 +27,7 @@ body {
 }
 .carousel {
 	display: inline-block;
-	position: fixed;
+	position: absolute;
 	top: 25%;
 }
 .planetimg {
@@ -72,11 +72,11 @@ padding: 10px;
 .pl1 p::first-letter {
 	color: blue;
 }
-.plbody	{
+/*.plbody	{
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg);
 	background-size: cover;
 }
-
+*/
 .team-block h2{
 
 text-align: center;
@@ -126,6 +126,5 @@ font-weight: normal;
 	color: #fff;
 	font-style: italic;
 }
-
 
 
