@@ -80,15 +80,15 @@ padding: 10px;
 .team-block h2{
 
 text-align: center;
-color: #666;
+color: white;
 font-weight: normal;
 }
 
 .line {
 
-	width: 55px;
+	width: 100px;
 	height: 1px;
-	background-color: #666;
+	background-color: white;
 	margin: 0 auto;
 }
 
@@ -127,4 +127,8 @@ font-weight: normal;
 	font-style: italic;
 }
 
+.blankspace {
+
+	margin-top: 100px;
+}
 
