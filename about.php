@@ -7,10 +7,14 @@
     <link rel="stylesheet" type="text/css" href="css/Gstyle.css">
     <link rel="stylesheet" type="text/css" href="css/Nstyle.css">
     <link rel="stylesheet" type="text/css" href="css/Lstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/Fstyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body>
+<body  style="    background-image: url(img/bg.jpg);
+    /* min-height: 90vh; */
+    background-size: cover;">
 <?php /*include('db.php');*/ ?>
 <section class="main-content">
 <?php include('navBar.php');?>

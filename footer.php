@@ -1,4 +1,4 @@
- <footer class="page-footer dark-blue transparency">
+ <footer class="page-footer dark-blue transparency footer_placement">
   <div class="container">
     <div class="row">
       <!-- <div class="col l6 s12">
@@ -24,7 +24,7 @@
   </div>
   <div class="footer-copyright">
     <div class="container">
-      © 2014 All rights reserved 
+      © 2017 All rights reserved 
       <p class= "grey-text text-lighten-4 right"> Mūsų adresas: nežinomas. Telefonas: irgi.</p>
       <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
     </div>

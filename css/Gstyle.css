@@ -10,7 +10,7 @@ body {
 
 .dark-blue{
 
-	background-color: #0c1a2f;
+	/*background-color: #0c1a2f;*/
 }
 .nav-wrapper img {
 
@@ -20,7 +20,14 @@ body {
 
 .transparency{
 
-	opacity: 0.8;
+	opacity: 1;
+	background-color: rgba(0,0,0,0.6);
+}
+.footer_placement {
+	/*    position: absolute;*/
+    /* bottom: initial; */
+    width: 100%;
+    top: 80%;
 }
 .positioning {
 	    position: absolute;
@@ -45,8 +52,9 @@ body {
 
 }
 .main-content {
-	 background-image: url("../img/bg.jpg");
-	 height: 100vh;
+	 /*background-image: url("../img/bg.jpg");*/
+	 min-height: 100vh;
+	  /*// pakeiciau*/
 	 background-size: cover;
 }
 

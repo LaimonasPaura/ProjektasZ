@@ -13,7 +13,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 </head>
-<body>
+<body style="    background-image: url(img/bg.jpg);
+    /* min-height: 90vh; */
+    background-size: cover;">
 <?php include('db2.php'); ?>
 <section class="main-content">
 <?php include('navBar.php');?>
